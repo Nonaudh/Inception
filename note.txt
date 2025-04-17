@@ -6,4 +6,4 @@ https://mcflypartages.fr/blog/linux_debian_docker_installation/
 https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/customizing_the_gnome_desktop_environment/index#proc_providing-feedback-on-red-hat-documentation_customizing-the-gnome-desktop-environment
 https://doc.ubuntu-fr.org/gnome-tweaks
 https://medium.com/@nikhilverma5000.nv/customizing-your-gnome-experience-tailor-your-desktop-to-fit-your-style-70f3faeebdab
-
+https://medium.com/@ksaquib/nginx-zero-to-hero-your-ultimate-guide-from-beginner-to-advanced-mastery-57e2dad6a77a
