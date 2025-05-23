@@ -10,3 +10,5 @@ cmake-build-debug
 README.md
 CMakeLists.txt
 VM/
+srcs/database/
+srcs/web/
