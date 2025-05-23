@@ -8,3 +8,4 @@ https://doc.ubuntu-fr.org/gnome-tweaks
 https://medium.com/@nikhilverma5000.nv/customizing-your-gnome-experience-tailor-your-desktop-to-fit-your-style-70f3faeebdab
 https://medium.com/@ksaquib/nginx-zero-to-hero-your-ultimate-guide-from-beginner-to-advanced-mastery-57e2dad6a77a
 https://medium.com/@ssterdev/inception-42-project-part-ii-19a06962cf3b
+https://www.w3schools.com/html/default.asp
