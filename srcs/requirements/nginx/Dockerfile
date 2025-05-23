@@ -1,4 +1,4 @@
-FROM debian:12
+FROM debian:11
 RUN apt update && apt upgrade -y
 RUN apt install nginx -y
 RUN mkdir -p /etc/nginx/ssl
