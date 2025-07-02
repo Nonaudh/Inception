@@ -1,7 +1,7 @@
 all:
 	sudo mkdir -p /home/ahuge/data/mariadb
 	sudo mkdir -p /home/ahuge/data/wordpress
-	sudo docker compose -f srcs/docker-compose.yml up -d
+	sudo docker compose -f srcs/docker-compose.yml up
 
 stop:
 	sudo docker compose -f srcs/docker-compose.yml stop
@@ -9,3 +9,7 @@ stop:
 down:
 	sudo docker compose -f srcs/docker-compose.yml down --volumes
 	sudo rm -rf /home/ahuge/data
+
+re:
+	make down
+	make all
