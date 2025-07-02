@@ -12,4 +12,3 @@ CMakeLists.txt
 VM/
 srcs/database/
 srcs/web/
-.env

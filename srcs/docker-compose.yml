@@ -40,6 +40,7 @@ services:
 
 networks:
   inception:
+    driver : bridge
 
 volumes:
   wp_data:

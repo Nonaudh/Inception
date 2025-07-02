@@ -1,9 +1,9 @@
 #!/bin/bash
 
-until mysql -h ${DB_HOST} -u${DB_USER} -p${DB_PASS} -e "SHOW DATABASES;" >/dev/null 2>&1; do
-  echo "Waiting for database connection..."
-  sleep 3
-done
+# until mysql -h ${DB_HOST} -u${DB_USER} -p${DB_PASS} -e "SHOW DATABASES;" >/dev/null 2>&1; do
+#   echo "Waiting for database connection..."
+#   sleep 3
+# done
 
 cd /var/www/html
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
