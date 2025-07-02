@@ -6,9 +6,8 @@ RUN apt install mariadb-server -y
 COPY conf/50-server.cnf /etc/mysql/mariadb.conf.d/.
 COPY tools/script.sh /tmp/script.sh
 RUN chmod +x /tmp/script.sh
-RUN tmp/script.sh
 
 RUN mkdir -p /run/mysqld /var/lib/mysql
 RUN chown -R mysql:mysql /run/mysqld /var/lib/mysql
 
-ENTRYPOINT ["/bin/sh", "-c", "exec mysqld_safe"]
+ENTRYPOINT ["./tmp/script.sh"]
