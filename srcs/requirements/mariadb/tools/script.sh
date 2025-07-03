@@ -1,5 +1,13 @@
 #!/bin/bash
 
+cat <<EOF > /etc/mysql/init.sql
+CREATE DATABASE IF NOT EXISTS \`${DB_NAME}\`;
+CREATE USER '${DB_USER}'@'%' IDENTIFIED BY '${DB_PASS}';
+GRANT ALL PRIVILEGES ON \`${DB_NAME}\`.* TO '${DB_USER}'@'%';
+ALTER USER 'root'@'%' IDENTIFIED BY '${SQL_ROOT_PASSWORD}';
+FLUSH PRIVILEGES;
+EOF
+
 mysql_install_db
 mysqld
 
